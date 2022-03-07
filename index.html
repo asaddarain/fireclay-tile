@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>Fire-Clay Tile</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -12,6 +12,7 @@
             rel="stylesheet"
         />
         <link href="/dist/output.css" rel="stylesheet" />
+        <script src="./script.js" defer></script>
     </head>
 
     <body>
@@ -36,7 +37,8 @@
                                 alt="Workflow"
                             />
                         </div>
-                        <!-- navbar items/anchor tags-->
+
+                        <!-- navbar items/anchor tags-Tablet/Laptop view-->
                         <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
                             <a
                                 href="#"
@@ -64,14 +66,15 @@
                                 Trade
                             </a>
                         </div>
+
                         <!-- navbar heroicons -->
                         <div class="hidden sm:ml-6 sm:flex sm:items-center">
+                            <!-- Heroicon name: Search icon -->
                             <button
                                 type="button"
                                 class="bg-white p-1 rounded-full text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-slate-500"
                             >
                                 <span class="sr-only">Search</span>
-                                <!-- Heroicon name: Search icon -->
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     class="h-6 w-6"
@@ -87,32 +90,8 @@
                                     />
                                 </svg>
                             </button>
-
-                            <!-- Heroicon name: Shopping icon -->
-                            <div class="ml-3 relative">
-                                <div>
-                                    <button
-                                        type="button"
-                                        class="bg-white rounded-full flex text-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-slate-500"
-                                        id="user-menu-button"
-                                        aria-expanded="false"
-                                        aria-haspopup="true"
-                                    >
-                                        <span class="sr-only">Go Shopping</span>
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            class="h-5 w-5"
-                                            viewBox="0 0 20 20"
-                                            fill="currentColor"
-                                        >
-                                            <path
-                                                d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"
-                                            />
-                                        </svg>
-                                    </button>
-                                </div>
-                            </div>
                         </div>
+
                         <!-- Mobile menu button -->
                         <div class="-mr-2 flex items-center sm:hidden">
                             <button
@@ -122,14 +101,9 @@
                                 aria-expanded="false"
                             >
                                 <span class="sr-only">Open main menu</span>
-                                <!--
-              Icon when menu is closed.
-  
-              Heroicon name: outline/menu
-  
-              Menu open: "hidden", Menu closed: "block"
-            -->
+
                                 <svg
+                                    id="open-main-menu"
                                     class="block h-6 w-6"
                                     xmlns="http://www.w3.org/2000/svg"
                                     fill="none"
@@ -144,14 +118,10 @@
                                         d="M4 6h16M4 12h16M4 18h16"
                                     />
                                 </svg>
-                                <!--
-              Icon when menu is open.
-  
-              Heroicon name: outline/x
-  
-              Menu open: "block", Menu closed: "hidden"
-            -->
+
+                                <span class="sr-only">Close main menu</span>
                                 <svg
+                                    id="close-main-menu"
                                     class="hidden h-6 w-6"
                                     xmlns="http://www.w3.org/2000/svg"
                                     fill="none"
@@ -173,7 +143,8 @@
 
                 <!-- ---------------------------------------- -->
                 <!-- Mobile menu, show/hide based on menu state. -->
-                <div class="sm:hidden" id="mobile-menu">
+                <!-- navbar items/anchor tags-Mobile view-->
+                <div class="hidden" id="mobile-menu">
                     <div class="pt-2 pb-3 space-y-1">
                         <a
                             href="#"

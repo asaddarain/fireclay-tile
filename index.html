@@ -240,7 +240,9 @@
                 <h1 class="font-serif text-4xl font-semibold tracking-normal">
                     What's In Stock Today
                 </h1>
-                <ul class="uppercase font-medium flex justify-center my-16">
+                <ul
+                    class="uppercase font-medium hidden sm:flex justify-center my-16"
+                >
                     <li class="mr-8 border-b-2 border-red-500">
                         <a href="">tile - in stock</a>
                     </li>
@@ -255,7 +257,6 @@
                     </li>
                 </ul>
             </div>
-
             <!-- Products list -->
             <div
                 class="text-center mt-6 grid grid-cols-1 gap-x-4 gap-y-10 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-4 lg:gap-x-8"
@@ -274,10 +275,7 @@
                         />
 
                         <h3 class="mt-4 text-2xl font-semibold font-serif">
-                            <a href="#">
-                                <span class="absolute inset-0 uppercase"></span>
-                                Salton Sea
-                            </a>
+                            <a href="#"> Salton Sea </a>
                         </h3>
                         <p class="mt-4 uppercase font-bold text-xs">
                             6" triangle
@@ -302,10 +300,7 @@
                         />
 
                         <h3 class="mt-4 text-2xl font-semibold font-serif">
-                            <a href="#">
-                                <span class="absolute inset-0 uppercase"></span>
-                                Hunter Green
-                            </a>
+                            <a href="#"> Hunter Green </a>
                         </h3>
                         <p class="mt-4 uppercase font-bold text-xs">
                             4" hexagon
@@ -330,10 +325,7 @@
                         />
 
                         <h3 class="mt-4 text-2xl font-semibold font-serif">
-                            <a href="#">
-                                <span class="absolute inset-0 uppercase"></span>
-                                Basalt
-                            </a>
+                            <a href="#"> Basalt </a>
                         </h3>
                         <p class="mt-4 uppercase font-bold text-xs">
                             4" hexagon
@@ -358,10 +350,7 @@
                         />
 
                         <h3 class="mt-4 text-2xl font-semibold font-serif">
-                            <a href="#">
-                                <span class="absolute inset-0 uppercase"></span>
-                                Tusk
-                            </a>
+                            <a href="#"> Tusk </a>
                         </h3>
                         <p class="mt-4 uppercase font-bold text-xs">
                             4" hexagon
@@ -373,13 +362,15 @@
                 </div>
             </div>
             <!-- Note & Button -->
-            <div class="text-center text-xs italic tracking-wide mt-16">
+            <div
+                class="text-center text-xs italic tracking-wide mt-8 sm:mt-16 px-9 sm:px-0"
+            >
                 <p>
                     We make everything to order, but we know not everyone has
                     time to wait. Here are some of our fast favorites, ready to
                     ship in 5 days or less.
                 </p>
-                <button class="mt-10 shadow">
+                <button class="mt-4 sm:mt-10 shadow">
                     <a
                         href="#"
                         class="w-52 flex items-center justify-center tracking-widest px-2 py-3 border border-transparent font-semibold text-xs text-white bg-black hover:bg-white hover:text-black hover:border-black"
@@ -399,7 +390,7 @@
                 <h2 class="mt-16 text-3xl font-semibold font-serif">
                     Our Products
                 </h2>
-                <p class="mt-8 text-sm text-slate-700">
+                <p class="mt-3 sm:mt-8 px-9 sm:px-0 text-sm text-slate-700">
                     You won’t find our tile in big showrooms or third-party
                     sellers because we believe tile should come straight from
                     the people who know it best, our Makers.
@@ -410,7 +401,7 @@
                 class="max-w-2xl mx-auto pt-14 pb-16 px-4 text-center sm:pb-24 sm:px-6 lg:max-w-7xl lg:px-8"
             >
                 <div
-                    class="grid grid-cols-1 gap-y-4 sm:grid-cols-2 sm:gap-x-6 sm:gap-y-10 lg:grid-cols-3 lg:gap-x-8"
+                    class="grid grid-cols-1 gap-y-10 sm:grid-cols-2 sm:gap-x-6 sm:gap-y-10 lg:grid-cols-3 lg:gap-x-8"
                 >
                     <!-- product-1 -->
                     <div class="group relative flex flex-col overflow-hidden">
@@ -421,15 +412,13 @@
                                 class="w-full h-60 object-center object-cover"
                             />
                         </div>
-                        <div class="flex-1 p-4 space-y-2 flex flex-col">
-                            <h3 class="mt-4 text-2xl font-semibold font-serif">
-                                <a href="#">
-                                    <span
-                                        aria-hidden="true"
-                                        class="absolute inset-0"
-                                    ></span>
-                                    Tile
-                                </a>
+                        <div
+                            class="flex-1 pt-0 sm:pt-4 p-4 space-y-2 flex flex-col"
+                        >
+                            <h3
+                                class="mt-3 sm:mt-4 text-2xl font-semibold font-serif"
+                            >
+                                <a href="#"> Tile </a>
                             </h3>
                             <p class="text-gray-700">
                                 Since 1986, we’ve been making all of our ceramic
@@ -448,15 +437,13 @@
                                 class="w-full h-60 object-center object-cover"
                             />
                         </div>
-                        <div class="flex-1 p-4 space-y-2 flex flex-col">
-                            <h3 class="mt-4 text-2xl font-semibold font-serif">
-                                <a href="#">
-                                    <span
-                                        aria-hidden="true"
-                                        class="absolute inset-0"
-                                    ></span>
-                                    Glazed Thin Brick
-                                </a>
+                        <div
+                            class="flex-1 pt-0 sm:pt-4 p-4 space-y-2 flex flex-col"
+                        >
+                            <h3
+                                class="mt-3 sm:mt-4 text-2xl font-semibold font-serif"
+                            >
+                                <a href="#"> Glazed Thin Brick </a>
                             </h3>
                             <p class="text-gray-700">
                                 A timeless material takes on a colorful new look
@@ -475,15 +462,13 @@
                                 class="w-full h-60 object-center object-cover"
                             />
                         </div>
-                        <div class="flex-1 p-4 space-y-2 flex flex-col">
-                            <h3 class="mt-4 text-2xl font-semibold font-serif">
-                                <a href="#">
-                                    <span
-                                        aria-hidden="true"
-                                        class="absolute inset-0"
-                                    ></span>
-                                    Quick Ship Tile and Brick
-                                </a>
+                        <div
+                            class="flex-1 pt-0 sm:pt-4 p-4 space-y-2 flex flex-col"
+                        >
+                            <h3
+                                class="mt-3 sm:mt-4 text-2xl font-semibold font-serif"
+                            >
+                                <a href="#"> Quick Ship Tile and Brick </a>
                             </h3>
                             <p class="text-gray-700">
                                 Need tile fast? Get up to speed on your next
@@ -502,15 +487,13 @@
                                 class="w-full h-60 object-center object-cover"
                             />
                         </div>
-                        <div class="flex-1 p-4 space-y-2 flex flex-col">
-                            <h3 class="mt-4 text-2xl font-semibold font-serif">
-                                <a href="#">
-                                    <span
-                                        aria-hidden="true"
-                                        class="absolute inset-0"
-                                    ></span>
-                                    Handpainted Tile
-                                </a>
+                        <div
+                            class="flex-1 pt-0 sm:pt-4 p-4 space-y-2 flex flex-col"
+                        >
+                            <h3
+                                class="mt-3 sm:mt-4 text-2xl font-semibold font-serif"
+                            >
+                                <a href="#"> Handpainted Tile </a>
                             </h3>
                             <p class="text-gray-700">
                                 Made with time-honored techniques going back
@@ -529,15 +512,13 @@
                                 class="w-full h-60 object-center object-cover"
                             />
                         </div>
-                        <div class="flex-1 p-4 space-y-2 flex flex-col">
-                            <h3 class="mt-4 text-2xl font-semibold font-serif">
-                                <a href="#">
-                                    <span
-                                        aria-hidden="true"
-                                        class="absolute inset-0"
-                                    ></span>
-                                    Glass Tile
-                                </a>
+                        <div
+                            class="flex-1 pt-0 sm:pt-4 p-4 space-y-2 flex flex-col"
+                        >
+                            <h3
+                                class="mt-3 sm:mt-4 text-2xl font-semibold font-serif"
+                            >
+                                <a href="#"> Glass Tile </a>
                             </h3>
                             <p class="text-gray-700">
                                 Raise a Glass! Our handmade Glass Tile offers a
@@ -555,15 +536,13 @@
                                 class="w-full h-60 object-center object-cover"
                             />
                         </div>
-                        <div class="flex-1 p-4 space-y-2 flex flex-col">
-                            <h3 class="mt-4 text-2xl font-semibold font-serif">
-                                <a href="#">
-                                    <span
-                                        aria-hidden="true"
-                                        class="absolute inset-0"
-                                    ></span>
-                                    Non-Slip Tile
-                                </a>
+                        <div
+                            class="flex-1 pt-0 sm:pt-4 p-4 space-y-2 flex flex-col"
+                        >
+                            <h3
+                                class="mt-3 sm:mt-4 text-2xl font-semibold font-serif"
+                            >
+                                <a href="#"> Non-Slip Tile </a>
                             </h3>
                             <p class="text-gray-700">
                                 There is no competition for our Non-Slip Tile.
@@ -587,7 +566,7 @@
                 <h2 class="text-3xl font-semibold font-serif">
                     Sample Our Most Loved Colors
                 </h2>
-                <p class="mt-8 text-sm text-slate-700">
+                <p class="mt-3 sm:mt-8 text-sm text-slate-700">
                     Enjoy 5 free, handcrafted color samples from our most
                     popular glazes.
                 </p>
@@ -721,7 +700,7 @@
             <!-- Title -->
             <div class="text-center px-16">
                 <h2 class="text-3xl font-semibold font-serif">Tile by Space</h2>
-                <p class="mt-8 text-sm text-slate-700">
+                <p class="mt-3 sm:mt-8 text-sm text-slate-700">
                     Looking for design inspiration? You've come to the right
                     place. From the kitchen to the great outdoors, our
                     handcrafted Tile offers a wide range of design possibilities
@@ -730,10 +709,10 @@
             </div>
             <!-- list -->
             <div
-                class="max-w-2xl mx-auto pt-14 pb-16 px-4 sm:pb-24 sm:px-6 lg:max-w-7xl lg:px-8"
+                class="max-w-2xl mx-auto pt-10 sm:pt-14 pb-16 px-4 sm:pb-24 sm:px-6 lg:max-w-7xl lg:px-8"
             >
                 <div
-                    class="grid grid-cols-1 gap-y-4 sm:grid-cols-2 sm:gap-x-6 sm:gap-y-10 lg:grid-cols-3 lg:gap-x-8"
+                    class="grid grid-cols-1 gap-y-10 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-3 lg:gap-x-8"
                 >
                     <!-- product-1 -->
                     <div
@@ -749,9 +728,11 @@
                                     class="w-full h-60 object-center object-cover"
                                 />
                             </div>
-                            <div class="flex-1 p-4 space-y-2 flex flex-col">
+                            <div
+                                class="flex-1 pt-0 sm:pt-4 p-4 space-y-2 flex flex-col"
+                            >
                                 <h3
-                                    class="mt-4 text-2xl font-semibold font-serif"
+                                    class="mt-3 sm:mt-4 text-2xl font-semibold font-serif"
                                 >
                                     <a href="#"> Exteriors </a>
                                 </h3>
@@ -767,7 +748,7 @@
                                         href="#"
                                         class="flex items-center justify-center tracking-widest px-2 py-4 border border-transparent font-semibold text-sm text-white bg-black hover:bg-white hover:text-black hover:border-black"
                                     >
-                                        see more fireclay kitchens
+                                        get outside
                                     </a>
                                 </button>
                             </div>
@@ -787,9 +768,11 @@
                                     class="w-full h-60 object-center object-cover"
                                 />
                             </div>
-                            <div class="flex-1 p-4 space-y-2 flex flex-col">
+                            <div
+                                class="flex-1 pt-0 sm:pt-4 p-4 space-y-2 flex flex-col"
+                            >
                                 <h3
-                                    class="mt-4 text-2xl font-semibold font-serif"
+                                    class="mt-3 sm:mt-4 text-2xl font-semibold font-serif"
                                 >
                                     <a href="#"> Kitchens </a>
                                 </h3>
@@ -826,9 +809,11 @@
                                     class="w-full h-60 object-center object-cover"
                                 />
                             </div>
-                            <div class="flex-1 p-4 space-y-2 flex flex-col">
+                            <div
+                                class="flex-1 pt-0 sm:pt-4 p-4 space-y-2 flex flex-col"
+                            >
                                 <h3
-                                    class="mt-4 text-2xl font-semibold font-serif"
+                                    class="mt-3 sm:mt-4 text-2xl font-semibold font-serif"
                                 >
                                     <a href="#"> Bathrooms </a>
                                 </h3>
@@ -870,7 +855,7 @@
                 class="text-center max-w-2xl mx-auto pt-10 pb-16 px-4 sm:pb-24 sm:px-6 lg:max-w-7xl lg:px-8"
             >
                 <div
-                    class="grid grid-cols-1 gap-y-4 sm:grid-cols-2 sm:gap-x-6 sm:gap-y-10 lg:grid-cols-3 lg:gap-x-8"
+                    class="grid grid-cols-1 gap-y-10 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-3 lg:gap-x-8"
                 >
                     <!-- product-1 -->
                     <div class="">
@@ -884,20 +869,20 @@
                                     class="w-44 mx-auto object-center object-cover"
                                 />
                             </div>
-                            <div class="flex-1 p-4 space-y-2 flex flex-col">
+                            <div class="flex-1 sm:p-4 space-y-2 flex flex-col">
                                 <h3
-                                    class="mt-4 text-2xl font-semibold font-serif hover:text-slate-700"
+                                    class="sm:mt-4 text-2xl font-semibold font-serif hover:text-slate-700"
                                 >
                                     <a href="#">For Homeowners </a>
                                 </h3>
-                                <p class="pt-4 line-clamp-2">
+                                <p class="sm:pt-4 line-clamp-2">
                                     Let's go outside! No project is too big or
                                     too small.
                                 </p>
                             </div>
                             <!-- button -->
                             <div class="text-center">
-                                <button class="mt-10 shadow uppercase">
+                                <button class="mt-4 sm:mt-10 shadow uppercase">
                                     <a
                                         href="#"
                                         class="flex items-center justify-center tracking-widest px-3 py-2 border border-black font-semibold text-xs text-black bg-white hover:bg-black hover:text-white"
@@ -920,13 +905,13 @@
                                     class="w-44 mx-auto object-center object-cover"
                                 />
                             </div>
-                            <div class="flex-1 p-4 space-y-2 flex flex-col">
+                            <div class="flex-1 sm:p-4 space-y-2 flex flex-col">
                                 <h3
-                                    class="mt-4 text-2xl font-semibold font-serif hover:text-slate-700"
+                                    class="sm:mt-4 text-2xl font-semibold font-serif hover:text-slate-700"
                                 >
                                     <a href="#"> For Residential Designers </a>
                                 </h3>
-                                <p class="pt-4 line-clamp-2">
+                                <p class="sm:pt-4 line-clamp-2">
                                     We’ve been working directly with the trade
                                     since 1986. Whatever the size of your
                                     project, you can expect dedicated service
@@ -935,7 +920,7 @@
                             </div>
                             <!-- button -->
                             <div class="text-center">
-                                <button class="mt-10 shadow uppercase">
+                                <button class="mt-4 sm:mt-10 shadow uppercase">
                                     <a
                                         href="#"
                                         class="flex items-center justify-center tracking-widest px-3 py-2 border border-black font-semibold text-xs text-black bg-white hover:bg-black hover:text-white"
@@ -958,13 +943,13 @@
                                     class="w-44 mx-auto object-center object-cover"
                                 />
                             </div>
-                            <div class="flex-1 p-4 space-y-2 flex flex-col">
+                            <div class="flex-1 sm:p-4 space-y-2 flex flex-col">
                                 <h3
-                                    class="mt-4 text-2xl font-semibold font-serif hover:text-slate-700"
+                                    class="sm:mt-4 text-2xl font-semibold font-serif hover:text-slate-700"
                                 >
                                     <a href="#"> For Commercial Designers</a>
                                 </h3>
-                                <p class="pt-4 line-clamp-2">
+                                <p class="sm:pt-4 line-clamp-2">
                                     Working with volume? We can get you samples,
                                     volume discounts, and tile experts to talk
                                     to.
@@ -972,7 +957,7 @@
                             </div>
                             <!-- button -->
                             <div class="text-center">
-                                <button class="mt-10 shadow uppercase">
+                                <button class="mt-4 sm:mt-10 shadow uppercase">
                                     <a
                                         href="#"
                                         class="flex items-center justify-center tracking-widest px-3 py-2 border border-black font-semibold text-xs text-black bg-white hover:bg-black hover:text-white"
@@ -997,7 +982,7 @@
             </h2>
             <!-- List -->
             <div
-                class="max-w-2xl mx-auto pt-14 pb-16 px-4 sm:pb-24 sm:px-6 lg:max-w-7xl lg:px-8"
+                class="max-w-2xl mx-auto pt-10 sm:pt-14 pb-16 px-4 sm:pb-24 sm:px-6 lg:max-w-7xl lg:px-8"
             >
                 <div
                     class="grid grid-cols-1 gap-y-4 sm:grid-cols-2 sm:gap-x-6 sm:gap-y-10 lg:grid-cols-4 lg:gap-x-8"
@@ -1530,8 +1515,5 @@
         <!-- Footer end -->
 
         <!-- ----------------------------------------- -->
-        <!-- Footer start -->
-        <section></section>
-        <!-- Footer end -->
     </body>
 </html>

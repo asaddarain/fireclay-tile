@@ -15,27 +15,32 @@
         <script src="./script.js" defer></script>
     </head>
 
-    <body>
-        <!-- Navbar start -->
+    <body class="antialiased">
+        <!--1-Navbar start -->
         <section>
-            <nav class="bg-white shadow">
+            <nav class="bg-white shadow fixed z-20 w-full">
+                <!-- Laptop/Tablet view -->
                 <!-- Main div -->
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div class="flex justify-between h-16">
                         <!-- Logo  -->
                         <div class="flex-shrink-0 flex items-center">
                             <!-- Small logo -->
-                            <img
-                                class="block lg:hidden h-8 w-auto"
-                                src="./src/assets/img/logos/fire-clay-tile-logo.svg"
-                                alt="Workflow"
-                            />
+                            <a href="">
+                                <img
+                                    class="block lg:hidden h-8 w-auto"
+                                    src="./src/assets/logos/fire-clay-tile-logo.svg"
+                                    alt="Workflow"
+                                />
+                            </a>
                             <!-- Wide logo -->
-                            <img
-                                class="hidden lg:block h-8 w-auto"
-                                src="./src/assets/img/logos/fire-clay-tile-logo-wide.svg"
-                                alt="Workflow"
-                            />
+                            <a href="">
+                                <img
+                                    class="hidden lg:block h-8 w-auto"
+                                    src="./src/assets/logos/fire-clay-tile-logo-wide.svg"
+                                    alt="Workflow"
+                                />
+                            </a>
                         </div>
 
                         <!-- navbar items/anchor tags-Tablet/Laptop view-->
@@ -141,7 +146,6 @@
                     </div>
                 </div>
 
-                <!-- ---------------------------------------- -->
                 <!-- Mobile menu, show/hide based on menu state. -->
                 <!-- navbar items/anchor tags-Mobile view-->
                 <div class="hidden" id="mobile-menu">
@@ -173,6 +177,1361 @@
         </section>
         <!-- Navbar end -->
 
+        <!-- ----------------------------------------- -->
+        <!--2-Hero Section start -->
+        <section>
+            <main class="lg:relative">
+                <!-- Hero section Image -->
+                <div
+                    class="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:left-0 lg:w-2/3 lg:h-full"
+                >
+                    <img
+                        class="absolute inset-0 w-full h-full object-cover"
+                        src="./src/assets/img/modern-subway-tile.jpeg"
+                        alt=""
+                    />
+                </div>
+                <!-- Hero section Details -->
+                <div
+                    class="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-40 bg-primary"
+                >
+                    <div
+                        class="px-4 lg:w-1/3 lg:ml-auto lg:text-left sm:px-8 xl:pr-16"
+                    >
+                        <p
+                            class="text-secondary font-semibold mb-5 hover:text-white uppercase"
+                        >
+                            Handmade for you
+                        </p>
+                        <h1
+                            class="text-4xl tracking-tight font-extrabold font-serif text-white sm:text-5xl md:text-5xl lg:text-5xl lg:w-full xl:text-5xl"
+                        >
+                            <span class="">The Modern</span>
+                            <span class="">Subway Tile</span>
+                        </h1>
+                        <p
+                            class="mt-3 max-w-md mx-auto text-lg text-white sm:text-xl md:mt-5 md:max-w-3xl"
+                        >
+                            Ceramic 2x8 Tile is perfect for capturing a sleek
+                            look. Need it quick? Choose from 10+ in-stock colors
+                            that ship in 5 days or less!
+                        </p>
+                        <div
+                            class="mt-10 sm:flex sm:justify-center lg:justify-start"
+                        >
+                            <button class="mt-3 shadow sm:mt-0">
+                                <a
+                                    href="#"
+                                    class="w-full flex items-center justify-center tracking-widest px-8 py-3 border border-transparent font-semibold text-xs text-black bg-white hover:bg-black hover:text-white md:py-4 md:px-10"
+                                >
+                                    SHOP QUICK SHIP 2X8
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </section>
+        <!-- Hero Section end -->
+
+        <!-- ----------------------------------------- -->
+        <!--3-CTA items start -->
+        <section class="bg-tertiary py-20 px-8 md:px-16">
+            <!-- Products title -->
+            <div class="text-center">
+                <h1 class="font-serif text-4xl font-semibold tracking-normal">
+                    What's In Stock Today
+                </h1>
+                <ul class="uppercase font-medium flex justify-center my-16">
+                    <li class="mr-8 border-b-2 border-red-500">
+                        <a href="">tile - in stock</a>
+                    </li>
+                    <li class="mr-8 hover:border-b-2 hover:border-red-500">
+                        <a href=""> glass - in stock</a>
+                    </li>
+                    <li class="mr-8 hover:border-b-2 hover:border-red-500">
+                        <a href=""> brick - in stock</a>
+                    </li>
+                    <li class="hover:border-b-2 hover:border-red-500">
+                        <a href=""> handpainted - in stock</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Products list -->
+            <div
+                class="text-center mt-6 grid grid-cols-1 gap-x-4 gap-y-10 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-4 lg:gap-x-8"
+            >
+                <!-- 1 -->
+                <div
+                    class="group relative border-2 border-transparent hover:border-2 hover:border-slate-300"
+                >
+                    <div
+                        class="w-full p-5 bg-white overflow-hidden lg:h-72 xl:h-80"
+                    >
+                        <img
+                            src="./src/assets/img/saltonsea.jpeg"
+                            alt=""
+                            class="mx-auto w-60 h-36 object-center object-cover"
+                        />
+
+                        <h3 class="mt-4 text-2xl font-semibold font-serif">
+                            <a href="#">
+                                <span class="absolute inset-0 uppercase"></span>
+                                Salton Sea
+                            </a>
+                        </h3>
+                        <p class="mt-4 uppercase font-bold text-xs">
+                            6" triangle
+                        </p>
+                        <p class="mt-5 text-sm font-medium font-serif">
+                            $36.00/sq ft
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div
+                    class="group relative border-2 border-transparent hover:border-2 hover:border-slate-300"
+                >
+                    <div
+                        class="w-full p-5 bg-white overflow-hidden lg:h-72 xl:h-80"
+                    >
+                        <img
+                            src="./src/assets/img/hunter.jpeg"
+                            alt=""
+                            class="mx-auto w-60 h-36 object-center object-cover"
+                        />
+
+                        <h3 class="mt-4 text-2xl font-semibold font-serif">
+                            <a href="#">
+                                <span class="absolute inset-0 uppercase"></span>
+                                Hunter Green
+                            </a>
+                        </h3>
+                        <p class="mt-4 uppercase font-bold text-xs">
+                            4" hexagon
+                        </p>
+                        <p class="mt-5 text-sm font-medium font-serif">
+                            $36.00/sq ft
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 3 -->
+                <div
+                    class="group relative border-2 border-transparent hover:border-2 hover:border-slate-300"
+                >
+                    <div
+                        class="w-full p-5 bg-white overflow-hidden lg:h-72 xl:h-80"
+                    >
+                        <img
+                            src="./src/assets/img/basalt.jpeg"
+                            alt=""
+                            class="mx-auto w-60 h-36 object-center object-cover"
+                        />
+
+                        <h3 class="mt-4 text-2xl font-semibold font-serif">
+                            <a href="#">
+                                <span class="absolute inset-0 uppercase"></span>
+                                Basalt
+                            </a>
+                        </h3>
+                        <p class="mt-4 uppercase font-bold text-xs">
+                            4" hexagon
+                        </p>
+                        <p class="mt-5 text-sm font-medium font-serif">
+                            $36.00/sq ft
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 4 -->
+                <div
+                    class="group relative border-2 border-transparent hover:border-2 hover:border-slate-300"
+                >
+                    <div
+                        class="w-full p-5 bg-white overflow-hidden lg:h-72 xl:h-80"
+                    >
+                        <img
+                            src="./src/assets/img/tusk.jpeg"
+                            alt=""
+                            class="mx-auto w-60 h-36 object-center object-cover"
+                        />
+
+                        <h3 class="mt-4 text-2xl font-semibold font-serif">
+                            <a href="#">
+                                <span class="absolute inset-0 uppercase"></span>
+                                Tusk
+                            </a>
+                        </h3>
+                        <p class="mt-4 uppercase font-bold text-xs">
+                            4" hexagon
+                        </p>
+                        <p class="mt-5 text-sm font-medium font-serif">
+                            $12.00/sq ft
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Note & Button -->
+            <div class="text-center text-xs italic tracking-wide mt-16">
+                <p>
+                    We make everything to order, but we know not everyone has
+                    time to wait. Here are some of our fast favorites, ready to
+                    ship in 5 days or less.
+                </p>
+                <button class="mt-10 shadow">
+                    <a
+                        href="#"
+                        class="w-52 flex items-center justify-center tracking-widest px-2 py-3 border border-transparent font-semibold text-xs text-white bg-black hover:bg-white hover:text-black hover:border-black"
+                    >
+                        SHOP ALL QUICK SHIP
+                    </a>
+                </button>
+            </div>
+        </section>
+        <!-- CTA items end -->
+
+        <!-- ----------------------------------------- -->
+        <!--4-Our Products start -->
+        <section>
+            <!-- Product title -->
+            <div class="text-center">
+                <h2 class="mt-16 text-3xl font-semibold font-serif">
+                    Our Products
+                </h2>
+                <p class="mt-8 text-sm text-slate-700">
+                    You won’t find our tile in big showrooms or third-party
+                    sellers because we believe tile should come straight from
+                    the people who know it best, our Makers.
+                </p>
+            </div>
+            <!-- Product list -->
+            <div
+                class="max-w-2xl mx-auto pt-14 pb-16 px-4 text-center sm:pb-24 sm:px-6 lg:max-w-7xl lg:px-8"
+            >
+                <div
+                    class="grid grid-cols-1 gap-y-4 sm:grid-cols-2 sm:gap-x-6 sm:gap-y-10 lg:grid-cols-3 lg:gap-x-8"
+                >
+                    <!-- product-1 -->
+                    <div class="group relative flex flex-col overflow-hidden">
+                        <div class="aspect-w-3 aspect-h-4 sm:aspect-none">
+                            <img
+                                src="./src/assets/img/tile.jpeg"
+                                alt=""
+                                class="w-full h-60 object-center object-cover"
+                            />
+                        </div>
+                        <div class="flex-1 p-4 space-y-2 flex flex-col">
+                            <h3 class="mt-4 text-2xl font-semibold font-serif">
+                                <a href="#">
+                                    <span
+                                        aria-hidden="true"
+                                        class="absolute inset-0"
+                                    ></span>
+                                    Tile
+                                </a>
+                            </h3>
+                            <p class="text-gray-700">
+                                Since 1986, we’ve been making all of our ceramic
+                                tile by hand, start to finish, nestled right in
+                                the middle of California’s agricultural
+                                heartland.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- product-2 -->
+                    <div class="group relative flex flex-col overflow-hidden">
+                        <div class="aspect-w-3 aspect-h-4 sm:aspect-none">
+                            <img
+                                src="./src/assets/img/glazed-thin-brick.png"
+                                alt=""
+                                class="w-full h-60 object-center object-cover"
+                            />
+                        </div>
+                        <div class="flex-1 p-4 space-y-2 flex flex-col">
+                            <h3 class="mt-4 text-2xl font-semibold font-serif">
+                                <a href="#">
+                                    <span
+                                        aria-hidden="true"
+                                        class="absolute inset-0"
+                                    ></span>
+                                    Glazed Thin Brick
+                                </a>
+                            </h3>
+                            <p class="text-gray-700">
+                                A timeless material takes on a colorful new look
+                                with 28 standard colors to choose from. What’s
+                                more to love? 1% of all Brick sales are donated
+                                to US National Parks Conservation.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- product-3 -->
+                    <div class="group relative flex flex-col overflow-hidden">
+                        <div class="aspect-w-3 aspect-h-4 sm:aspect-none">
+                            <img
+                                src="./src/assets/img/quickship-tile.jpeg"
+                                alt=""
+                                class="w-full h-60 object-center object-cover"
+                            />
+                        </div>
+                        <div class="flex-1 p-4 space-y-2 flex flex-col">
+                            <h3 class="mt-4 text-2xl font-semibold font-serif">
+                                <a href="#">
+                                    <span
+                                        aria-hidden="true"
+                                        class="absolute inset-0"
+                                    ></span>
+                                    Quick Ship Tile and Brick
+                                </a>
+                            </h3>
+                            <p class="text-gray-700">
+                                Need tile fast? Get up to speed on your next
+                                project with our best-selling recycled Tile and
+                                Brick, shipped from our factory in 5 days or
+                                less.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- product-4 -->
+                    <div class="group relative flex flex-col overflow-hidden">
+                        <div class="aspect-w-3 aspect-h-4 sm:aspect-none">
+                            <img
+                                src="./src/assets/img/handpainted-tile.jpeg"
+                                alt=""
+                                class="w-full h-60 object-center object-cover"
+                            />
+                        </div>
+                        <div class="flex-1 p-4 space-y-2 flex flex-col">
+                            <h3 class="mt-4 text-2xl font-semibold font-serif">
+                                <a href="#">
+                                    <span
+                                        aria-hidden="true"
+                                        class="absolute inset-0"
+                                    ></span>
+                                    Handpainted Tile
+                                </a>
+                            </h3>
+                            <p class="text-gray-700">
+                                Made with time-honored techniques going back
+                                hundreds of years, every tile is handpainted to
+                                order by our skilled Makers in Aromas,
+                                California.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- product-5 -->
+                    <div class="group relative flex flex-col overflow-hidden">
+                        <div class="aspect-w-3 aspect-h-4 sm:aspect-none">
+                            <img
+                                src="./src/assets/img/glass-tile.png"
+                                alt=""
+                                class="w-full h-60 object-center object-cover"
+                            />
+                        </div>
+                        <div class="flex-1 p-4 space-y-2 flex flex-col">
+                            <h3 class="mt-4 text-2xl font-semibold font-serif">
+                                <a href="#">
+                                    <span
+                                        aria-hidden="true"
+                                        class="absolute inset-0"
+                                    ></span>
+                                    Glass Tile
+                                </a>
+                            </h3>
+                            <p class="text-gray-700">
+                                Raise a Glass! Our handmade Glass Tile offers a
+                                wide range of design possibilities for both
+                                residential and commercial applications.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- product-6 -->
+                    <div class="group relative flex flex-col overflow-hidden">
+                        <div class="aspect-w-3 aspect-h-4 sm:aspect-none">
+                            <img
+                                src="./src/assets/img/nonslip-tile.jpeg"
+                                alt=""
+                                class="w-full h-60 object-center object-cover"
+                            />
+                        </div>
+                        <div class="flex-1 p-4 space-y-2 flex flex-col">
+                            <h3 class="mt-4 text-2xl font-semibold font-serif">
+                                <a href="#">
+                                    <span
+                                        aria-hidden="true"
+                                        class="absolute inset-0"
+                                    ></span>
+                                    Non-Slip Tile
+                                </a>
+                            </h3>
+                            <p class="text-gray-700">
+                                There is no competition for our Non-Slip Tile.
+                                With a breaking strength of 393 pounds per foot,
+                                these tiles will withstand the rigor of
+                                commercial flooring applications while passing
+                                the DCOF Test.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Our Products end -->
+
+        <!-- ----------------------------------------- -->
+        <!--5-Sample Colors start -->
+        <section class="bg-tertiary p-16">
+            <!-- Title -->
+            <div class="text-center">
+                <h2 class="text-3xl font-semibold font-serif">
+                    Sample Our Most Loved Colors
+                </h2>
+                <p class="mt-8 text-sm text-slate-700">
+                    Enjoy 5 free, handcrafted color samples from our most
+                    popular glazes.
+                </p>
+            </div>
+            <!-- Sample colors  -->
+            <div
+                class="text-center mt-10 grid grid-cols-1 gap-x-4 gap-y-10 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-4 lg:gap-x-8"
+            >
+                <!-- sample-1 -->
+                <div
+                    class="group relative border-2 border-transparent hover:border-2 hover:border-slate-300"
+                >
+                    <div
+                        class="w-full p-5 bg-white overflow-hidden lg:h-72 xl:h-80"
+                    >
+                        <img
+                            src="./src/assets/img/blackhills.jpeg"
+                            alt=""
+                            class="mx-auto w-60 h-36 object-center object-cover"
+                        />
+
+                        <h3 class="mt-4 text-2xl font-semibold font-serif">
+                            <a href="#"> Black Hills </a>
+                        </h3>
+                        <button class="mt-10 shadow">
+                            <a
+                                href="#"
+                                class="w-36 flex items-center justify-center tracking-widest px-2 py-3 border border-transparent font-extrabold text-xs text-white bg-black hover:bg-white hover:text-black hover:border-black"
+                            >
+                                GET SAMPLE
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <!-- sample-2 -->
+                <div
+                    class="group relative border-2 border-transparent hover:border-2 hover:border-slate-300"
+                >
+                    <div
+                        class="w-full p-5 bg-white overflow-hidden lg:h-72 xl:h-80"
+                    >
+                        <img
+                            src="./src/assets/img/whitewash.jpeg"
+                            alt=""
+                            class="mx-auto w-60 h-36 object-center object-cover"
+                        />
+
+                        <h3 class="mt-4 text-2xl font-semibold font-serif">
+                            <a href="#"> White Wash </a>
+                        </h3>
+                        <button class="mt-10 shadow">
+                            <a
+                                href="#"
+                                class="w-36 flex items-center justify-center tracking-widest px-2 py-3 border border-transparent font-extrabold text-xs text-white bg-black hover:bg-white hover:text-black hover:border-black"
+                            >
+                                GET SAMPLE
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <!-- sample-3 -->
+                <div
+                    class="group relative border-2 border-transparent hover:border-2 hover:border-slate-300"
+                >
+                    <div
+                        class="w-full p-5 bg-white overflow-hidden lg:h-72 xl:h-80"
+                    >
+                        <img
+                            src="./src/assets/img/rosemary.jpeg"
+                            alt=""
+                            class="mx-auto w-60 h-36 object-center object-cover"
+                        />
+
+                        <h3 class="mt-4 text-2xl font-semibold font-serif">
+                            <a href="#"> Rosemary </a>
+                        </h3>
+                        <button class="mt-10 shadow">
+                            <a
+                                href="#"
+                                class="w-36 flex items-center justify-center tracking-widest px-2 py-3 border border-transparent font-extrabold text-xs text-white bg-black hover:bg-white hover:text-black hover:border-black"
+                            >
+                                GET SAMPLE
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <!-- sample-4 -->
+                <div
+                    class="group relative border-2 border-transparent hover:border-2 hover:border-slate-300"
+                >
+                    <div
+                        class="w-full p-5 bg-white overflow-hidden lg:h-72 xl:h-80"
+                    >
+                        <img
+                            src="./src/assets/img/calcite.jpeg"
+                            alt=""
+                            class="mx-auto w-60 h-36 object-center object-cover"
+                        />
+
+                        <h3 class="mt-4 text-2xl font-semibold font-serif">
+                            <a href="#"> Calcite </a>
+                        </h3>
+                        <button class="mt-10 shadow">
+                            <a
+                                href="#"
+                                class="w-36 flex items-center justify-center tracking-widest px-2 py-3 border border-transparent font-extrabold text-xs text-white bg-black hover:bg-white hover:text-black hover:border-black"
+                            >
+                                GET SAMPLE
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Button -->
+            <div class="text-center">
+                <button class="mt-10 shadow uppercase">
+                    <a
+                        href="#"
+                        class="w-52 flex items-center justify-center tracking-widest px-2 py-3 border border-transparent font-semibold text-xs text-white bg-black hover:bg-white hover:text-black hover:border-black"
+                    >
+                        shop all samples
+                    </a>
+                </button>
+            </div>
+        </section>
+        <!-- Sample Colors end -->
+
+        <!-- ----------------------------------------- -->
+        <!--6-Tile by Space start -->
+        <section class="bg-tertiary pt-20 pb-5">
+            <!-- Title -->
+            <div class="text-center px-16">
+                <h2 class="text-3xl font-semibold font-serif">Tile by Space</h2>
+                <p class="mt-8 text-sm text-slate-700">
+                    Looking for design inspiration? You've come to the right
+                    place. From the kitchen to the great outdoors, our
+                    handcrafted Tile offers a wide range of design possibilities
+                    for projects of any size.
+                </p>
+            </div>
+            <!-- list -->
+            <div
+                class="max-w-2xl mx-auto pt-14 pb-16 px-4 sm:pb-24 sm:px-6 lg:max-w-7xl lg:px-8"
+            >
+                <div
+                    class="grid grid-cols-1 gap-y-4 sm:grid-cols-2 sm:gap-x-6 sm:gap-y-10 lg:grid-cols-3 lg:gap-x-8"
+                >
+                    <!-- product-1 -->
+                    <div
+                        class="border-2 border-transparent hover:border-slate-300"
+                    >
+                        <div
+                            class="bg-white group relative flex flex-col overflow-hidden"
+                        >
+                            <div class="aspect-w-3 aspect-h-4 sm:aspect-none">
+                                <img
+                                    src="./src/assets/img/exteriors.jpeg"
+                                    alt=""
+                                    class="w-full h-60 object-center object-cover"
+                                />
+                            </div>
+                            <div class="flex-1 p-4 space-y-2 flex flex-col">
+                                <h3
+                                    class="mt-4 text-2xl font-semibold font-serif"
+                                >
+                                    <a href="#"> Exteriors </a>
+                                </h3>
+                                <p class="font-semibold line-clamp-2">
+                                    Let's go outside! No project is too big or
+                                    too small.
+                                </p>
+                            </div>
+                            <!-- button -->
+                            <div class="text-center">
+                                <button class="mt-10 w-full shadow uppercase">
+                                    <a
+                                        href="#"
+                                        class="flex items-center justify-center tracking-widest px-2 py-4 border border-transparent font-semibold text-sm text-white bg-black hover:bg-white hover:text-black hover:border-black"
+                                    >
+                                        see more fireclay kitchens
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- product-2 -->
+                    <div
+                        class="border-2 border-transparent hover:border-slate-300"
+                    >
+                        <div
+                            class="bg-white group relative flex flex-col overflow-hidden"
+                        >
+                            <div class="aspect-w-3 aspect-h-4 sm:aspect-none">
+                                <img
+                                    src="./src/assets/img/kitchens.jpeg"
+                                    alt=""
+                                    class="w-full h-60 object-center object-cover"
+                                />
+                            </div>
+                            <div class="flex-1 p-4 space-y-2 flex flex-col">
+                                <h3
+                                    class="mt-4 text-2xl font-semibold font-serif"
+                                >
+                                    <a href="#"> Kitchens </a>
+                                </h3>
+                                <p class="font-semibold line-clamp-2">
+                                    When the kitchen is the hub of the home, why
+                                    hold back? These kitchen designs will
+                                    satisfy all of your style cravings.
+                                </p>
+                            </div>
+                            <!-- button -->
+                            <div class="text-center">
+                                <button class="mt-10 w-full shadow uppercase">
+                                    <a
+                                        href="#"
+                                        class="flex items-center justify-center tracking-widest px-2 py-4 border border-transparent font-semibold text-sm text-white bg-black hover:bg-white hover:text-black hover:border-black"
+                                    >
+                                        see more fireclay kitchens
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- product-3 -->
+                    <div
+                        class="border-2 border-transparent hover:border-slate-300"
+                    >
+                        <div
+                            class="bg-white group relative flex flex-col overflow-hidden"
+                        >
+                            <div class="aspect-w-3 aspect-h-4 sm:aspect-none">
+                                <img
+                                    src="./src/assets/img/bathrooms.jpeg"
+                                    alt=""
+                                    class="w-full h-60 object-center object-cover"
+                                />
+                            </div>
+                            <div class="flex-1 p-4 space-y-2 flex flex-col">
+                                <h3
+                                    class="mt-4 text-2xl font-semibold font-serif"
+                                >
+                                    <a href="#"> Bathrooms </a>
+                                </h3>
+                                <p class="font-semibold line-clamp-2">
+                                    Whether you prefer a classsic subway tile or
+                                    a lively pattern, the bathroom is a space
+                                    perfect for letting your creativity get
+                                    wild.
+                                </p>
+                            </div>
+                            <!-- button -->
+                            <div class="text-center">
+                                <button class="mt-10 w-full shadow uppercase">
+                                    <a
+                                        href="#"
+                                        class="flex items-center justify-center tracking-widest px-2 py-4 border border-transparent font-semibold text-sm text-white bg-black hover:bg-white hover:text-black hover:border-black"
+                                    >
+                                        see more fireclay bathrooms
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--6-Tile by Space end -->
+
+        <!-- ----------------------------------------- -->
+        <!--7-Designers start -->
+        <section class="pt-20 pb-12">
+            <!-- title -->
+            <h2 class="text-3xl text-center font-semibold font-serif">
+                Welcome to Fireclay — It’s nice to <br />
+                meet you!
+            </h2>
+            <!-- list -->
+            <div
+                class="text-center max-w-2xl mx-auto pt-10 pb-16 px-4 sm:pb-24 sm:px-6 lg:max-w-7xl lg:px-8"
+            >
+                <div
+                    class="grid grid-cols-1 gap-y-4 sm:grid-cols-2 sm:gap-x-6 sm:gap-y-10 lg:grid-cols-3 lg:gap-x-8"
+                >
+                    <!-- product-1 -->
+                    <div class="">
+                        <div
+                            class="bg-white group relative flex flex-col overflow-hidden"
+                        >
+                            <div class="aspect-w-3 aspect-h-4 sm:aspect-none">
+                                <img
+                                    src="./src/assets/img/for-home-owners.png"
+                                    alt=""
+                                    class="w-44 mx-auto object-center object-cover"
+                                />
+                            </div>
+                            <div class="flex-1 p-4 space-y-2 flex flex-col">
+                                <h3
+                                    class="mt-4 text-2xl font-semibold font-serif hover:text-slate-700"
+                                >
+                                    <a href="#">For Homeowners </a>
+                                </h3>
+                                <p class="pt-4 line-clamp-2">
+                                    Let's go outside! No project is too big or
+                                    too small.
+                                </p>
+                            </div>
+                            <!-- button -->
+                            <div class="text-center">
+                                <button class="mt-10 shadow uppercase">
+                                    <a
+                                        href="#"
+                                        class="flex items-center justify-center tracking-widest px-3 py-2 border border-black font-semibold text-xs text-black bg-white hover:bg-black hover:text-white"
+                                    >
+                                        GET FREE DESIGN ASSISTANCE
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- product-2 -->
+                    <div class="">
+                        <div
+                            class="bg-white group relative flex flex-col overflow-hidden"
+                        >
+                            <div class="aspect-w-3 aspect-h-4 sm:aspect-none">
+                                <img
+                                    src="./src/assets/img/residential-designers.png"
+                                    alt=""
+                                    class="w-44 mx-auto object-center object-cover"
+                                />
+                            </div>
+                            <div class="flex-1 p-4 space-y-2 flex flex-col">
+                                <h3
+                                    class="mt-4 text-2xl font-semibold font-serif hover:text-slate-700"
+                                >
+                                    <a href="#"> For Residential Designers </a>
+                                </h3>
+                                <p class="pt-4 line-clamp-2">
+                                    We’ve been working directly with the trade
+                                    since 1986. Whatever the size of your
+                                    project, you can expect dedicated service
+                                    from one of our experienced tile experts.
+                                </p>
+                            </div>
+                            <!-- button -->
+                            <div class="text-center">
+                                <button class="mt-10 shadow uppercase">
+                                    <a
+                                        href="#"
+                                        class="flex items-center justify-center tracking-widest px-3 py-2 border border-black font-semibold text-xs text-black bg-white hover:bg-black hover:text-white"
+                                    >
+                                        JOIN OUR TRADE PROGRAM
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- product-3 -->
+                    <div class="">
+                        <div
+                            class="bg-white group relative flex flex-col overflow-hidden"
+                        >
+                            <div class="aspect-w-3 aspect-h-4 sm:aspect-none">
+                                <img
+                                    src="./src/assets/img/commercial-designers.png"
+                                    alt=""
+                                    class="w-44 mx-auto object-center object-cover"
+                                />
+                            </div>
+                            <div class="flex-1 p-4 space-y-2 flex flex-col">
+                                <h3
+                                    class="mt-4 text-2xl font-semibold font-serif hover:text-slate-700"
+                                >
+                                    <a href="#"> For Commercial Designers</a>
+                                </h3>
+                                <p class="pt-4 line-clamp-2">
+                                    Working with volume? We can get you samples,
+                                    volume discounts, and tile experts to talk
+                                    to.
+                                </p>
+                            </div>
+                            <!-- button -->
+                            <div class="text-center">
+                                <button class="mt-10 shadow uppercase">
+                                    <a
+                                        href="#"
+                                        class="flex items-center justify-center tracking-widest px-3 py-2 border border-black font-semibold text-xs text-black bg-white hover:bg-black hover:text-white"
+                                    >
+                                        START YOUR COMMERCIAL PROJECT
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Designers end -->
+
+        <!-- ----------------------------------------- -->
+        <!--8-Comments/Remarks start -->
+        <section class="pt-12">
+            <!-- Title -->
+            <h2 class="text-3xl text-center font-semibold font-serif">
+                Don't Take Our Word For It
+            </h2>
+            <!-- List -->
+            <div
+                class="max-w-2xl mx-auto pt-14 pb-16 px-4 sm:pb-24 sm:px-6 lg:max-w-7xl lg:px-8"
+            >
+                <div
+                    class="grid grid-cols-1 gap-y-4 sm:grid-cols-2 sm:gap-x-6 sm:gap-y-10 lg:grid-cols-4 lg:gap-x-8"
+                >
+                    <!-- 1 -->
+                    <div
+                        class="h-80 bg-white border border-slate-400 text-center group relative flex flex-col overflow-hidden"
+                    >
+                        <div class="flex-1 px-6 space-y-2 flex flex-col">
+                            <h3 class="mt-4 text-lg font-semibold">
+                                <a href="#">Highly recommended</a>
+                            </h3>
+                            <!-- stars -->
+                            <div class="flex items-center mx-auto">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="h-5 w-5 text-yellow-300"
+                                    viewBox="0 0 20 20"
+                                    fill="currentColor"
+                                >
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                                    />
+                                </svg>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="h-5 w-5 text-yellow-300"
+                                    viewBox="0 0 20 20"
+                                    fill="currentColor"
+                                >
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                                    />
+                                </svg>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="h-5 w-5 text-yellow-300"
+                                    viewBox="0 0 20 20"
+                                    fill="currentColor"
+                                >
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                                    />
+                                </svg>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="h-5 w-5 text-yellow-300"
+                                    viewBox="0 0 20 20"
+                                    fill="currentColor"
+                                >
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                                    />
+                                </svg>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="h-5 w-5 text-yellow-300"
+                                    viewBox="0 0 20 20"
+                                    fill="currentColor"
+                                >
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                                    />
+                                </svg>
+                            </div>
+                            <p class="text-sm">
+                                Lorem ipsum dolor sit, amet consectetur
+                                adipisicing elit. Repellendus dicta
+                                necessitatibus est quis cum velit molestias sit,
+                                sequi tempore iusto!
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- 2 -->
+                    <div
+                        class="h-80 bg-white border border-slate-400 text-center group relative flex flex-col overflow-hidden"
+                    >
+                        <div class="flex-1 px-6 space-y-2 flex flex-col">
+                            <h3 class="mt-4 text-lg font-semibold">
+                                <a href="#">Highly recommended</a>
+                            </h3>
+                            <!-- stars -->
+                            <div class="flex items-center mx-auto">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="h-5 w-5 text-yellow-300"
+                                    viewBox="0 0 20 20"
+                                    fill="currentColor"
+                                >
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                                    />
+                                </svg>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="h-5 w-5 text-yellow-300"
+                                    viewBox="0 0 20 20"
+                                    fill="currentColor"
+                                >
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                                    />
+                                </svg>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="h-5 w-5 text-yellow-300"
+                                    viewBox="0 0 20 20"
+                                    fill="currentColor"
+                                >
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                                    />
+                                </svg>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="h-5 w-5 text-yellow-300"
+                                    viewBox="0 0 20 20"
+                                    fill="currentColor"
+                                >
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                                    />
+                                </svg>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="h-5 w-5 text-yellow-300"
+                                    viewBox="0 0 20 20"
+                                    fill="currentColor"
+                                >
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                                    />
+                                </svg>
+                            </div>
+                            <p class="text-sm">
+                                Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Consectetur quis minima quod
+                                animi perferendis odit voluptates quia ut facere
+                                esse!
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- 3 -->
+                    <div
+                        class="h-80 bg-white border border-slate-400 text-center group relative flex flex-col overflow-hidden"
+                    >
+                        <div class="flex-1 px-6 space-y-2 flex flex-col">
+                            <h3 class="mt-4 text-lg font-semibold">
+                                <a href="#">Highly recommended</a>
+                            </h3>
+                            <!-- stars -->
+                            <div class="flex items-center mx-auto">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="h-5 w-5 text-yellow-300"
+                                    viewBox="0 0 20 20"
+                                    fill="currentColor"
+                                >
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                                    />
+                                </svg>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="h-5 w-5 text-yellow-300"
+                                    viewBox="0 0 20 20"
+                                    fill="currentColor"
+                                >
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                                    />
+                                </svg>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="h-5 w-5 text-yellow-300"
+                                    viewBox="0 0 20 20"
+                                    fill="currentColor"
+                                >
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                                    />
+                                </svg>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="h-5 w-5 text-yellow-300"
+                                    viewBox="0 0 20 20"
+                                    fill="currentColor"
+                                >
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                                    />
+                                </svg>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="h-5 w-5 text-yellow-300"
+                                    viewBox="0 0 20 20"
+                                    fill="currentColor"
+                                >
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                                    />
+                                </svg>
+                            </div>
+                            <p class="text-sm">
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Fuga eius illo eligendi
+                                corrupti laudantium doloribus, ipsam facilis!
+                                Similique, quasi dolores.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- 4 -->
+                    <div
+                        class="h-80 bg-white border border-slate-400 text-center group relative flex flex-col overflow-hidden"
+                    >
+                        <div class="flex-1 px-6 space-y-2 flex flex-col">
+                            <h3 class="mt-4 text-lg font-semibold">
+                                <a href="#">Highly recommended</a>
+                            </h3>
+                            <!-- stars -->
+                            <div class="flex items-center mx-auto">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="h-5 w-5 text-yellow-300"
+                                    viewBox="0 0 20 20"
+                                    fill="currentColor"
+                                >
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                                    />
+                                </svg>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="h-5 w-5 text-yellow-300"
+                                    viewBox="0 0 20 20"
+                                    fill="currentColor"
+                                >
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                                    />
+                                </svg>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="h-5 w-5 text-yellow-300"
+                                    viewBox="0 0 20 20"
+                                    fill="currentColor"
+                                >
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                                    />
+                                </svg>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="h-5 w-5 text-yellow-300"
+                                    viewBox="0 0 20 20"
+                                    fill="currentColor"
+                                >
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                                    />
+                                </svg>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="h-5 w-5 text-yellow-300"
+                                    viewBox="0 0 20 20"
+                                    fill="currentColor"
+                                >
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                                    />
+                                </svg>
+                            </div>
+                            <p class="text-sm">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Natus quisquam corporis
+                                consequuntur tempore numquam molestiae autem
+                                commodi hic minima nobis!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--8-Comments/Remarks end -->
+
+        <!-- ----------------------------------------- -->
+        <!--9-Footer start -->
+        <footer class="bg-primary" aria-labelledby="footer-heading">
+            <!-- size -->
+            <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+                <!-- grid -->
+                <div
+                    class="grid grid-cols-1 sm:grid sm:grid-cols-2 lg:grid lg:grid-cols-4 lg:gap-8"
+                >
+                    <!-- 1 -->
+                    <div>
+                        <h3
+                            class="text-2xl font-semibold text-gray-400 tracking-wider"
+                        >
+                            About Us
+                        </h3>
+                        <ul role="list" class="mt-4 space-y-1">
+                            <li>
+                                <a
+                                    href="#"
+                                    class="text-base text-white hover:text-gray-400"
+                                >
+                                    Our Story
+                                </a>
+                            </li>
+
+                            <li>
+                                <a
+                                    href="#"
+                                    class="text-base text-white hover:text-gray-400"
+                                >
+                                    Our Team
+                                </a>
+                            </li>
+
+                            <li>
+                                <a
+                                    href="#"
+                                    class="text-base text-white hover:text-gray-400"
+                                >
+                                    The Factory
+                                </a>
+                            </li>
+
+                            <li>
+                                <a
+                                    href="#"
+                                    class="text-base text-white hover:text-gray-400"
+                                >
+                                    Showrooms
+                                </a>
+                            </li>
+
+                            <li>
+                                <a
+                                    href="#"
+                                    class="text-base text-white hover:text-gray-400"
+                                >
+                                    Press
+                                </a>
+                            </li>
+
+                            <li>
+                                <a
+                                    href="#"
+                                    class="text-base text-white hover:text-gray-400"
+                                >
+                                    Careers
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- 2 -->
+                    <div class="mt-12 sm:mt-0">
+                        <h3
+                            class="text-2xl font-semibold text-gray-400 tracking-wider"
+                        >
+                            Get Help
+                        </h3>
+                        <ul role="list" class="mt-4 space-y-1">
+                            <li>
+                                <a
+                                    href="#"
+                                    class="text-base text-white hover:text-gray-400"
+                                >
+                                    1-800-773-2226 <br />
+                                </a>
+                                <span class="text-xs text-slate-200 italic"
+                                    >7:00am-5pm PST M-F, 10am-4pm PST Sat</span
+                                >
+                            </li>
+
+                            <li>
+                                <a
+                                    href="#"
+                                    class="text-base text-white hover:text-gray-400"
+                                >
+                                    Email Us
+                                </a>
+                            </li>
+
+                            <li>
+                                <a
+                                    href="#"
+                                    class="text-base text-white hover:text-gray-400"
+                                >
+                                    Track Order
+                                </a>
+                            </li>
+
+                            <li>
+                                <a
+                                    href="#"
+                                    class="text-base text-white hover:text-gray-400"
+                                >
+                                    FAQ
+                                </a>
+                            </li>
+
+                            <li>
+                                <a
+                                    href="#"
+                                    class="text-base text-white hover:text-gray-400"
+                                >
+                                    Shipping
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="#"
+                                    class="text-base text-white hover:text-gray-400"
+                                >
+                                    Returns
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- 3 -->
+                    <div
+                        class="border-r-0 lg:border-r border-slate-400 mt-12 lg:mt-0"
+                    >
+                        <h3
+                            class="text-2xl font-semibold text-gray-400 tracking-wider"
+                        >
+                            Resources
+                        </h3>
+                        <ul role="list" class="mt-4 space-y-1">
+                            <li>
+                                <a
+                                    href="#"
+                                    class="text-base text-white hover:text-gray-400"
+                                >
+                                    Trade
+                                </a>
+                            </li>
+
+                            <li>
+                                <a
+                                    href="#"
+                                    class="text-base text-white hover:text-gray-400"
+                                >
+                                    Commercial
+                                </a>
+                            </li>
+
+                            <li>
+                                <a
+                                    href="#"
+                                    class="text-base text-white hover:text-gray-400"
+                                >
+                                    Design Assistance
+                                </a>
+                            </li>
+
+                            <li>
+                                <a
+                                    href="#"
+                                    class="text-base text-white hover:text-gray-400"
+                                >
+                                    Specs
+                                </a>
+                            </li>
+
+                            <li>
+                                <a
+                                    href="#"
+                                    class="text-base text-white hover:text-gray-400"
+                                >
+                                    Design Files
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="#"
+                                    class="text-base text-white hover:text-gray-400"
+                                >
+                                    Installation
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- 4 -->
+                    <div class="mt-12 lg:mt-0">
+                        <h3
+                            class="text-2xl font-semibold text-gray-400 tracking-wider"
+                        >
+                            Keep In Touch
+                        </h3>
+                        <p class="mt-4 text-xs text-white">
+                            We'll keep you updated with new products, design
+                            trends, promotions and any exciting happenings
+                            around the studio.
+                        </p>
+                        <!-- form -->
+                        <form class="mt-4 sm:flex sm:max-w-md">
+                            <label for="email-address"></label>
+                            <input
+                                type="email"
+                                name="email-address"
+                                id="email-address"
+                                autocomplete="email"
+                                required
+                                class="appearance-none min-w-0 w-full bg-white border border-gray-300 shadow-sm py-2 px-4 text-base text-gray-900 placeholder-gray-300 focus:outline-none focus:placeholder-slate-200"
+                                placeholder="email"
+                            />
+                            <div
+                                class="mt-3 rounded-md sm:mt-0 sm:flex-shrink-0"
+                            >
+                                <button
+                                    type="submit"
+                                    class="w-full flex items-center justify-center border border-transparent py-3 px-4 text-sm font-medium bg-black text-white hover:bg-white hover:text-black hover:border-black focus:ring-2 focus:ring-offset-2"
+                                >
+                                    JOIN
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer end -->
+
+        <!-- ----------------------------------------- -->
         <!-- Footer start -->
         <section></section>
         <!-- Footer end -->

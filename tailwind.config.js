@@ -1,6 +1,6 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
-    content: ['index.html', 'form.html'],
+    content: ['index.html', 'form.html', 'leads.html'],
     theme: {
         extend: {
             fontFamily: {
@@ -13,5 +13,8 @@ module.exports = {
             },
         },
     },
-    plugins: [require('@tailwindcss/line-clamp')],
+    plugins: [
+        require('@tailwindcss/line-clamp'),
+        require('@tailwindcss/forms'),
+    ],
 }
